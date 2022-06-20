@@ -4,24 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Animated Figures (with cooling effects)- FSTG II - E. Gardiner
+</title>
 </head>
 <body>
     <style>
         body {
             width: 100%;
+            font-family: sans-serif;
         }
 
-        img {
+        div, img {
             display: block;
             margin: auto;
+            text-align: center;
+        }
+
+        h1, h3 {
+            margin-bottom: 0;
+        }
+
+        .r {
+            max-width: 12em;
+        }
+        
+        @media only screen and (min-width:768px){
+            .r {
+                position: fixed;
+                bottom: 1em;
+                right: 1em;
+                background-color: lightcyan;
+                padding: 1em;
+                border-radius: 0.2em;
+            }
         }
     </style>
-    <img src="009_ratio_combined.gif"></img><br>
-    <img src="021_ratio_combined.gif"></img><br>
-    <img src="039_ratio_combined.gif"></img><br>
-    <img src="054_ratio_combined.gif"></img><br>
-    <img src="068_ratio_combined.gif"></img><br>
-    <img src="094_ratio_combined.gif"></img><br>
+    <div><h1>With cooling effects</h1><h3>Left: 25000 AU, Right: 4000AU</h3></div>
+    <div><img src="009_ratio_combined.gif"></div><br>
+    <div><img src="021_ratio_combined.gif"></div><br>
+    <div><img src="039_ratio_combined.gif"></div><br>
+    <div><img src="054_ratio_combined.gif"></div><br>
+    <div><img src="068_ratio_combined.gif"></div><br>
+    <div><img src="094_ratio_combined.gif"></div><br>
+    <div class="r">gif files and webpage created and hosted by Albert Zhang (Columbia University)</div>
 </body>
 </html>
